@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
-import {FlatList,View,Platform,Text} from 'react-native';
+import {FlatList,View,Platform} from 'react-native';
 import {ListItem} from 'react-native-elements';
 import {DISHES} from "../shared/dishes";
 
 class Menu extends Component {
+    static navigationOptions = {
+        title: 'Menu'
+    };
 
     constructor(props){
         super(props);
@@ -13,9 +16,7 @@ class Menu extends Component {
         };
 
     }
-    static navigationOptions = {
-        title: 'Menu'
-    };
+
 
     render(){
         const {navigate} = this.props.navigation;
