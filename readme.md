@@ -1,7 +1,7 @@
-#Instructions:
+# Instructions:
 
-#npm install
+## npm install
 
-#set REACT_NATIVE_PACKAGER_HOSTNAME=your.current.ip
+## set REACT_NATIVE_PACKAGER_HOSTNAME=your.current.ip
 
-#npm start
+## npm start
